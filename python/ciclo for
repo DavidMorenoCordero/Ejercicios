@@ -1,0 +1,16 @@
+# creamos un programa con el cual le diremos a usuario que cree la lista
+numeros = []
+ #capturamos los numeros de la lista
+for i in range  (10):
+    numero = float(input(f"Ingrese el numero {i+1}  "))
+    numeros.append(numero)
+    
+#realizamos la suma de los nunmeros
+suma = 0
+for numero in numeros:
+    suma += numero
+
+promedio = suma/len(numeros)
+#imprimimos los resultados
+print("La Suma de los numeros es: ", suma) 
+print("Elpromedio de los umeros es: ", promedio)
